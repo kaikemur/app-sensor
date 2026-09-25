@@ -183,4 +183,93 @@ const styles = StyleSheet.create({
   bolhaInclinada: {
     backgroundColor: '#D97706',
   },
-  tagStatus: {
+    tagStatus: {
+      paddingVertical: 4,
+      paddingHorizontal: 10,
+      borderRadius: 16,
+      marginBottom: 16,
+    },
+    tagVerde: {
+      backgroundColor: '#D0ECCE',
+    },
+    tagAmarela: {
+      backgroundColor: '#FEF3C7',
+    },
+    tagStatusTexto: {
+      fontSize: 12,
+      fontWeight: 'bold',
+    },
+    tagTextoVerde: {
+      color: '#15803D',
+    },
+    tagTextoAmarelo: {
+      color: '#e2680b',
+    },
+    tabelaValores: {
+      flexDirection: 'row',
+      backgroundColor: '#F8FAFC',
+      borderWidth: 1,
+      borderColor: '#E2E8F0',
+      borderRadius: 8,
+      paddingVertical: 12,
+      width: '100%',
+      marginTop: 16,
+    },
+colunaValor: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  separadorColuna: {
+    width: 1,
+    backgroundColor: '#E2E8F0',
+  },
+  rotuloEixo: {
+    fontSize: 12,
+    color: '#64748B',
+    fontWeight: '500',
+    marginBottom: 4,
+  },
+  valorEixo: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#0F172A',
+  },
+  linhaBotoes: {
+    flexDirection: 'row',
+    width: '100%',
+    gap: 12,
+  },
+  botaoAcao: {
+    flex: 1,
+    paddingVertical: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  botaoPausar: {
+      backgroundColor: '#DC2626',
+    },
+    botaoRetornar: {
+      backgroundColor: '#2563EB',
+    },
+    botaoSalvar: {
+      backgroundColor: '#000000',
+    },
+    botaoAcaoTexto: {
+      color: '#FFFFFF',
+      fontWeight: 'bold',
+      fontSize: 14,
+    },
+    avisoErro: {
+      backgroundColor: '#FEE2E2',
+      padding: 10,
+      borderRadius: 8,
+      marginBottom: 16,
+      borderWidth: 1,
+      borderColor: '#FCA5A5',
+    },
+    avisoErroTexto: {
+      color: '#991B1B',
+      fontSize: 14,
+      textAlign: 'center',
+    },
+  });
